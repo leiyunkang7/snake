@@ -1,0 +1,54 @@
+*{
+transition:all 1s;
+}
+
+#draw{
+border: 1px solid black;
+}
+
+.rankinglist{
+border: 1px solid black;
+min-width: 200px;
+
+}
+
+.rankinglist tr:first-child{
+border: 1px solid black;
+}
+
+.startBtn{
+display: block;
+position: relative;
+width: 70px;
+height: 20px;
+}
+
+.startBtn .border{
+position: absolute;
+
+display: block;
+background: gray;
+
+}
+
+.startBtn .border:nth-child(1){
+height: 2px;
+width: 70px;
+}
+
+.startBtn .border:nth-child(2){
+height: 20px;
+width: 2px;
+right: 0px;
+}
+
+.startBtn .border:nth-child(3){
+height: 2px;
+width: 70px;
+bottom: 0px;
+}
+
+.startBtn .border:nth-child(4){
+height: 20px;
+width: 2px;
+}
